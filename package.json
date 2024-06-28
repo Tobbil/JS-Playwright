@@ -4,7 +4,8 @@
   "description": "Playwright course",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --headed"
+    "test": "playwright test --headed",
+    "test:ci": "playwright test"
   },
   "author": "Tobiasz Bilinski",
   "license": "ISC",
