@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Playwright course",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed"
+  },
+  "author": "Tobiasz Bilinski",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7",
+    "playwright": "^1.36.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
+  }
+}
