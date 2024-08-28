@@ -21,7 +21,7 @@ export class CheckoutPage {
       const withoutDollarSign = element.replace("$", "");
       return parseInt(withoutDollarSign, 10);
     });
-    const smallestPrice = Math.min(justNumbers);
+    const smallestPrice = Math.min(...justNumbers);
     const smallestPriceIndex = justNumbers.indexOf(smallestPrice);
     const specificRemoveBtn = this.basketRemoveItemBtn.nth(smallestPriceIndex);
     await specificRemoveBtn.click();
