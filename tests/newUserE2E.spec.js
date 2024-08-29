@@ -17,7 +17,6 @@ test("New user full end-to-end test", async ({ page }) => {
   await productPage.addProductToBasket(0);
   await productPage.addProductToBasket(1);
   await productPage.addProductToBasket(2);
-  // await page.pause()
   const navigation = new Navigation(page);
   await navigation.goToCheckout();
 

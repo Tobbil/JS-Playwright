@@ -7,6 +7,8 @@ export class Navigation {
     this.basketCounter = page.locator('[data-qa="header-basket-count"]');
     this.checkoutLink = page.getByRole("link", { name: "Checkout" });
     this.menuExpandBtn = page.locator('[data-qa="burger-button"]');
+    this.navigationBarDesktop = page.locator('[data-qa="monitor-navigation"]')
+    this.navigationBarMobile = page.locator('[data-qa="mobile-navigation"]')
   }
 
   async getBasketCount() {
