@@ -15,7 +15,7 @@ To get started, ensure that you have [Node.js](https://nodejs.org/) installed on
 
 3. Install Playwright browsers:
     ```bash
-    npm playwright install
+    npx playwright install
     ```
 
 ### Running Tests
